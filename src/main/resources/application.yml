@@ -5,7 +5,9 @@ spring:
     config:
       server:
         git:
-          uri:
-          search-paths:
+          #服务的git仓库地址
+          uri: https://github.com/Zhrey/candidateConfig.git
+          #配置文件所在的目录
+          search-paths: /*
           username: zhrey
           password: ZHR0743@qq.com
